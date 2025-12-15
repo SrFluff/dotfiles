@@ -1,6 +1,5 @@
 call plug#begin()
 
-" List your plugins here
 Plug 'ervandew/supertab'
 Plug 'itchyny/lightline.vim'
 Plug 'ericbn/vim-solarized'
