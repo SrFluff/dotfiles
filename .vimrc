@@ -31,3 +31,4 @@ nnoremap <C-w> :tabclose<CR>
 nnoremap <C-c> :tab terminal<CR>
 nnoremap <C-s> :tab Startify<CR>
 nnoremap <C-p> :PlugInstall<CR>
+nnoremap <C-l> :PligClean<CR>
