@@ -1,6 +1,6 @@
 # Dotfiles
 
-Everyone has them, some people share theme.
+Everyone has them, some people share them.
 
 ## Purpose
 
