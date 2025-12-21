@@ -6,12 +6,15 @@ Plug 'ericbn/vim-solarized'
 Plug 'morhetz/gruvbox'
 Plug 'mhinz/vim-startify'
 Plug 'preservim/nerdtree'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
 set laststatus=2
 set noshowmode
 set background=dark
+set encoding=UTF-8
+
 syntax enable
 colorscheme gruvbox
 
@@ -31,4 +34,6 @@ nnoremap <C-w> :tabclose<CR>
 nnoremap <C-c> :tab terminal<CR>
 nnoremap <C-s> :tab Startify<CR>
 nnoremap <C-p> :PlugInstall<CR>
-nnoremap <C-l> :PlugClean<CR>
+nnoremap <C-l> :PligClean<CR>
+
+set number
