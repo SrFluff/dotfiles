@@ -7,6 +7,7 @@ Plug 'morhetz/gruvbox'
 Plug 'mhinz/vim-startify'
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
+Plug 'tjdevries/animate.vim'
 
 call plug#end()
 
@@ -34,6 +35,10 @@ nnoremap <C-w> :tabclose<CR>
 nnoremap <C-c> :tab terminal<CR>
 nnoremap <C-s> :tab Startify<CR>
 nnoremap <C-p> :PlugInstall<CR>
-nnoremap <C-l> :PligClean<CR>
+nnoremap <C-l> :PlugClean<CR>
 
 set number
+set list
+set listchars=tab:\|\ ,trail:-,extends:>,precedes:<,nbsp:+
+set tabstop=4
+set shiftwidth=4
