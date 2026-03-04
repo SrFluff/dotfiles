@@ -17,7 +17,7 @@ set background=dark
 set encoding=UTF-8
 
 syntax enable
-colorscheme gruvbox
+colorscheme lunaperche
 
 let g:lightline = {
 	\ 'colorscheme': 'srcery_drk',
